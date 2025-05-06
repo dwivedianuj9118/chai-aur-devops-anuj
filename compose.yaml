@@ -20,7 +20,7 @@ services:
     build: ./backend
     container_name: backend
     ports:
-      - "8081:8080"
+      - "8080:8080"
     env_file:
     - ./backend/.env
     depends_on:
